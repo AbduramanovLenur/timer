@@ -1,7 +1,25 @@
-# Vue 3 + Vite
+# Проект Таймер:
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+* Сайт, которые показывает счетчик таймера. На таймаре сущестует функционал start(начало таймера), pause(пауза таймера), reset(сброс таймера). 
+* Сайт адаптироват под любые мониторы экрана
+* Стек, который был использован: Vue JS, Vite JS
+* Таймер был реализован 3 методами: setInterval, requestAnimationFrame, setTimeout
+* Компонент TimerItemT - setTimeout
+* Компонент TimerItemR - requestAnimationFrame
+* Компонент TimerItemS - setInterval
 
-## Recommended IDE Setup
+<br>
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+# Project Timer:
+
+* A site that shows a counter timer. On the timer, there is a start(timer start), pause(timer pause), reset(timer reset) functionality.
+* The site will adapt to any screen monitors
+* Stack used: Vue JS, Vite JS
+* The timer was implemented by 3 methods: setInterval, requestAnimationFrame, setTimeout
+* TimerItemT component - setTimeout
+* TimerItemR component - requestAnimationFrame
+* TimerItemS component - setInterval
+
+<br>
+
+## 🔗 https://timer-cite.netlify.app/

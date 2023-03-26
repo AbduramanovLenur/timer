@@ -16,18 +16,20 @@
 </template>
 
 <script>
-import TimerItem from '@/components/TimerItem.vue';
+import TimerItemT from '@/components/TimerItemT.vue';
+import TimerItemR from '@/components/TimerItemT.vue';
+import TimerItemS from '@/components/TimerItemT.vue';
 import NewTimer from '@/components/NewTimer.vue';
 
 export default {
   name: 'App',
-  components: {TimerItem, NewTimer},
+  components: {TimerItemT, NewTimer},
   data: () => ({
-    components: [TimerItem]
+    components: [TimerItemT]
   }),
   methods: {
     addTimer() {
-      this.components.push(TimerItem);
+      this.components.push(TimerItemT);
     }
   }
 }
